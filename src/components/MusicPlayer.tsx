@@ -15,7 +15,7 @@ const MusicPlayer: React.FC = () => {
       src: [audio],
       loop: true,
       volume: 0.5,
-      autoplay: false,
+      autoplay: true ,
     });
     
     return () => {
