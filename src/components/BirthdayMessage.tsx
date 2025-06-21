@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Typed from 'typed.js';
 
 const paragraphs = [
-  `Happy Birthday to the most prettiest cutest and the sweetest bestfriend of mine. You thinkin who it is ? It is YOU. Eversince the day you came into my life alot of things have changed for good. You are the reason that I started to talk alot with people openly. You made an introverted person like me into a completely extroverted person. It is you that made my relation with my sister even better. If not for you I would have not been anywhere near to where I am right now.`,
+  `Happy Birthday to the most prettiest cutest and the sweetest bestfriend of mine. You thinkin who it is ? It is YOU 💖. Eversince the day you came into my life alot of things have changed for good. You are the reason that I started to talk alot with people openly. You made an introverted person like me into a completely extroverted person. It is you that made my relation with my sister even better. If not for you I would have not been anywhere near to where I am right now.`,
   
   `I want to apologize to you Mythili. The things that happened between us still haunts me everytime. Those stupid fights shouldnt be between us. It has to be like You and Me against the problem not You vs Me. I am really sorry nenu aa roju ala andari mundhu aravakunda undalsindhi Mythili.`,
   
@@ -32,7 +32,7 @@ const BirthdayMessage = () => {
           typed.destroy();
           setParagraphIndex(prev => prev + 1);
           setKey(prev => prev + 1); // force new span on next render
-        }, 15000); // 30 seconds pause
+        }, 7000); // 30 seconds pause
       }
     });
 
