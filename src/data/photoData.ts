@@ -18,47 +18,47 @@ export interface Photo {
 export const photoData: Photo[] = [
   {
     id: 1,
-    url: pic1,
-    caption: "Happy moments with friends"
+    url: pic8,
+    caption: "Happy moments with family"
   },
   {
     id: 2,
-    url: pic2,
-    caption: "Birthday cake with candles"
+    url: pic1,
+    caption: "Some bonds don’t need words — just one look says it all."
   },
   {
     id: 3,
     url: pic3,
-    caption: "Party time with balloons"
+    caption: "Little queen energy since day one 👑✨"
   },
   {
     id: 4,
     url: pic4,
-    caption: "Blowing out the candles"
+    caption: "A rose on the table, and one sitting right next to it 🌹"
   },
   {
     id: 5,
     url: pic5,
-    caption: "Making a birthday wish"
+    caption: "Two heads, one vibe.✨”"
   },
   {
     id: 6,
     url: pic6,
-    caption: "Special memories together"
+    caption: "Black outfits, bold hearts 🖤"
   },
   {
     id: 7,
     url: pic7,
-    caption: "Beautiful birthday flowers"
+    caption: "Celebrating with friends"
   },
   {
     id: 8,
-    url: pic8,
-    caption: "Gifts and surprises"
+    url: pic2,
+    caption: "To the world, she might be someone. To me, she’s everything."
   },
   {
     id: 9,
     url: pic9,
-    caption: "Party decorations"
+    caption: "Wrapped in culture, glowing in golden hour 🌼📸"
   }
 ];
