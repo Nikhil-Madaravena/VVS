@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Music, VolumeX } from 'lucide-react';
 import { Howl } from 'howler';
 // import wishes from '../assets/wishes.mp3'; // Adjust the path as necessary
+import audio from '../assets/Heat-Waves-Slowed-Reverb-[AudioTrimmer.com].mp3'
 
 const MusicPlayer: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -9,10 +10,9 @@ const MusicPlayer: React.FC = () => {
   
   useEffect(() => {
     // Birthday song URL - this is a free-to-use happy birthday music
-    const musicUrl = 'https://assets.mixkit.co/music/preview/mixkit-a-happy-child-111.mp3';
-    
+
     soundRef.current = new Howl({
-      src: [musicUrl],
+      src: [audio],
       loop: true,
       volume: 0.5,
       autoplay: false,
